@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Input from './components/Input/Input'
+import { TextBox } from './components/common/TextBox'
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Input/>
+        <TextBox />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +16,6 @@ function App() {
         >
           Learn React
         </a>
-      </header>
     </div>
   );
 }

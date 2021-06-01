@@ -1,5 +1,6 @@
 .button {
 min-width: 5rem;
+min-height: 2.25rem;
 background-color: rgb(229, 56, 238);
 color: white;
 font-size: 1rem;
